@@ -158,7 +158,7 @@ Used when implementing different features in the same code
 
 ``` bash
 git branch
-git branch branchName
+git branch branch_Name
 ```
 -v- 
 
@@ -168,6 +168,24 @@ Conflicts
 Merge   
 
 
+-v-  
+  
+### Checkout
+Used to navigate versions and branches  
+  
+``` bash  
+git checkout branch  
+git checkout commit_id  
+```  
+
+-v-
+
+### Switch  
+Used to switch between branches 
+
+```bash  
+git switch branch_Name  
+```  
 
 --- 
 <!-- .slide: data-auto-animate -->
