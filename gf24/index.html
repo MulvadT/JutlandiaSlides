@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			img { 
+				height: 600px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="slides.md" data-separator="---" data-separator-vertical="-v-" data-separator-notes="Note:" data-charset="iso-8859-15" data-auto-animate>
+				</section>
+			</div>
+		</div>
+		<img src="/assets/static/logo.png" alt="Logo" width="200" height="200" style="position: absolute; bottom: 0px; left: 0px; height: 200px !important; ">
+		<img src="/assets/static/qr_discord.png" alt="Logo" width="200" height="200" style="position: absolute; top: 20px; right: 20px; height: 200px !important;">
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            progress: true,
+            shuffle: false,
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        });
+		</script>
+	</body>
+</html>
